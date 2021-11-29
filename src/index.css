@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.form{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Channel_1_Israel_DSC0021.jpg/1200px-Channel_1_Israel_DSC0021.jpg);
+  background-size: cover;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+ 
+}
+
+.login{
+  padding: 7%;
+  background: #fffdfd;
+  box-shadow: 6px 4px 32px 0px #000;
+}
+
+.signup{
+  padding: 0.5% 7%;
+  background: #fffdfd;
+  box-shadow: 6px 4px 32px 0px #000;
+}
+
+.head{
+  font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #4f76e7;
+}
+
+.ant-btn {
+  margin: 10px;
+}
